@@ -1,16 +1,9 @@
-# sample_app
+# How to run integration test
 
-A new Flutter project.
+## Run command:
 
-## Getting Started
+- Run chrome driver by command: make run-chrome-driver
 
-This project is a starting point for a Flutter application.
+- In case you haven't installed chrome driver yet please [download](https://chromedriver.chromium.org/downloads) and add it to your system's path like [so](https://docs.flutter.dev/get-started/install/macos#update-your-path)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Run integration test via command: make run-test
